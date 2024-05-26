@@ -5,8 +5,7 @@ from dotenv import load_dotenv
 
 # Load environment variables from .env file
 load_dotenv()
-
-st.set_page_config(page_title="Chatbot🦙💬 ")
+# REPLICATE_API_URL = "https://replicate.com/account/api-tokens"
 REPLICATE_API_TOKEN = os.getenv("REPLICATE_API_TOKEN")
 
 with st.sidebar:
