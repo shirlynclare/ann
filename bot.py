@@ -70,5 +70,6 @@ with st.sidebar:
     st.write()
     # Add a button to navigate to the Blogging social app
     if st.button("Go to Blog App"):
-       st.markdown(f"[Go to Blog App]({https://group-blog-app2.netlify.app/})")
+    st.markdown("[Go to Blog App](https://group-blog-app2.netlify.app)")
+
        
