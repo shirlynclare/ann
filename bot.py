@@ -70,4 +70,5 @@ with st.sidebar:
     st.write()
     # Add a button to navigate to the Blogging social app
     if st.button("Go to Blog App"):
-       st.markdown(f"[Go to Blog App]({blog_app_url})")
+       st.markdown(f"[Go to Blog App]({https://politegreencow.github.io/group11/})")
+       
